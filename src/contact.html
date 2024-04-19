@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./output.css">
+    <title>Contact</title>
+</head>
+<body class="bg-gray-700">
+
+    <header class="w-[100%] p-4 bg-gray-900 text-white flex justify-between fixed z-10">
+        <nav class="flex gap-2 items-center">
+          <a href="index.html" class="hover:text-violet-600">Home</a>
+          <a href="category.html" class="hover:text-violet-600">Category</a>
+          <a href="contact.html" class="hover:text-violet-600 underline text-violet-400">Contact</a>
+          <a href="product.html" class="hover:text-violet-600">Products</a>
+        </nav>
+        <div class="text-lg font-bold">
+          Cheysss-<span class="text-violet-600">SHOP</span>
+        </div>
+      </header>
+
+    <section class="h-[100dvh] grid place-items-center">
+
+        <div class="w-[90%] lg:w-[50%] mx-auto bg-gray-600 p-3 rounded-2xl">
+
+            <div>
+                <h1 class="text-4xl font-bold text-white mb-2">Get in <span class="text-violet-400">Touch</span></h1>
+            </div>
+            <div class="flex w-[100%] gap-2">
+                <div class="flex-1">   
+                    <label for="name" class="text-white text-lg font-bold">Name</label><br>
+                    <input type="text" id="name" placeholder="Enter Your Name" required class="w-[100%] p-3 rounded-lg mb-3 bg-transparent border-2 text-white border-gray-400 focus:border-violet-700"><br>
+                </div>
+                <div class="flex-1">
+                    <label for="email" class="text-white text-lg font-bold">Email</label><br>
+                    <input type="email" id="email" placeholder="Enter your email" required class="w-[100%] p-3 rounded-lg mb-3 bg-transparent border-2 text-white border-gray-400 focus:border-violet-700">
+                </div>
+            </div>
+            <div class="flex-1">
+                <label for="subject" class="text-white text-lg font-bold">Subject</label><br>
+                <input type="text" id="subject" placeholder="Enter your subject" required class="w-[100%] p-3 rounded-lg mb-3 bg-transparent border-2 text-white border-gray-400 focus:border-violet-700">
+            </div>
+            <div class="flex-1">
+                <label for="message" class="text-white text-lg font-bold">Message</label><br>
+                <textarea id="message" cols="100" rows="10" placeholder="Enter Message..." class="w-[100%] p-3 rounded-lg mb-3 bg-transparent border-2 text-white border-gray-400 focus:border-violet-700"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Send Message" class="bg-violet-600 px-3 py-1 rounded-full text-white font-bold hover:text-violet-700 hover:bg-black">
+            </div>
+
+        </div>
+
+    </section>
+    
+</body>
+</html>
